@@ -47,7 +47,6 @@ int main( void )
 
 	for (;;)
 	{
-		CoreCallback();
 		loop();
 		if (serialEventRun) serialEventRun();
 	}
